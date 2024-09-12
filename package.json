@@ -1,6 +1,6 @@
 {
   "name": "with-react-native-tcp-socket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Config plugin to auto configure react-native-tcp-socket on Expo prebuild",
   "main": "build/withReactNativeTcpSocket.js",
   "types": "build/withReactNativeTcpSocket.d.ts",
