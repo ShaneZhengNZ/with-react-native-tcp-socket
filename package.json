@@ -1,0 +1,47 @@
+{
+  "name": "with-react-native-tcp-socket",
+  "version": "1.0.0",
+  "description": "Config plugin to auto configure react-native-tcp-socket on Expo prebuild",
+  "main": "build/withReactNativeTcpSocket.js",
+  "types": "build/withReactNativeTcpSocket.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShaneZhengNZ/with-react-native-tcp-socket.git"
+  },
+  "files": [
+    "build",
+    "app.plugin.js"
+  ],
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native-tcp-socket",
+    "react-native",
+    "expo"
+  ],
+  "author": "Shane Zheng <shane.zheng@icloud.com> (https://github.com/ShaneZhengNZ)",
+  "bugs": {
+    "url": "https://github.com/ShaneZhengNZ/with-react-native-tcp-socket/issues"
+  },
+  "homepage": "https://github.com/ShaneZhengNZ/with-react-native-tcp-socket/blob/main/README.md",
+  "license": "MIT",
+  "dependencies": {
+    "semver": "^7.6.3"
+  },
+  "peerDependencies": {
+    "expo": "^50"
+  },
+  "devDependencies": {
+    "@types/semver": "^7.5.8",
+    "expo-module-scripts": "^3.5.2"
+  },
+  "upstreamPackage": "react-native-tcp-socket"
+}
